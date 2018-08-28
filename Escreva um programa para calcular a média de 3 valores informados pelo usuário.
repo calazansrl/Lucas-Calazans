@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+
+int main()
+{
+    int a,b,c,media;
+
+    printf("Digite o primeiro numero inteiro:");
+    scanf("%i",&a);
+
+    printf("Digite o segundo numero inteiro:");
+    scanf("%i",&b);
+
+    printf("Digite o terceiro numero inteiro:");
+    scanf("%i",&c);
+
+    media = (a+b+c)/2;
+    printf("sua media é: %i ",media);
+
+    return 0;
+}
