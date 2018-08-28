@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+
+int main()
+{
+    float valor_inicial,porcentagem,valor_final,novo,novo1;
+
+    printf("Informe o valor inicial da mercadoria:");
+    scanf("%f",&valor_inicial);
+
+    printf("Informe a porcentagem de desconto na mercadoria:");
+    scanf("%f",&porcentagem);
+
+    novo = porcentagem/100;
+
+    novo1 = novo*valor_inicial;
+
+    printf("O valor da mercadoria eh:%.2f",novo1);
+    return 0;
+}
