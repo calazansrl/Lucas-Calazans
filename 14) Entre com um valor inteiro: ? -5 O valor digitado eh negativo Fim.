@@ -1,0 +1,18 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+  int x;
+  printf("Ente com um valor inteiro:");
+  scanf("%i",&x);
+  if (x>0)
+  {
+      printf("O valor digitado eh positivo\n");
+      printf("FIM");
+  }
+  else
+
+      printf("O valor digitado eh negativo");
+  return 0;
+}
