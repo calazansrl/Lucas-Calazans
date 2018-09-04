@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+  int a,b;
+  printf("digite o valor de a:");
+  scanf("%i",&a);
+  printf("digite o valor de b:");
+  scanf("%i",&b);
+  printf("%i",a+b);
+  return 0;
+}
