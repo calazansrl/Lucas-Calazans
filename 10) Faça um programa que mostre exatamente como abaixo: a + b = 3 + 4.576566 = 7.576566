@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+  int a,b;
+  a=3;
+  b=4.576566;
+  printf("a + b = %i + %i = 7.576566",a,b,a+b);
+  return 0;
+}
