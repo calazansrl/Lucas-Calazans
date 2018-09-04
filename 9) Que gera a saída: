@@ -6,6 +6,6 @@ int main()
   int a,b;
   a=3;
   b=4;
-  printf("%i",a+b);
+  printf("a + b = %i + %i = 7",a,b,a+b);
   return 0;
 }
